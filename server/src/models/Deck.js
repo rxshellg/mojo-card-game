@@ -9,8 +9,7 @@ const Deck = db.define('Deck', {
         allowNull: false
     },
     xp: {
-        type: DataTypes.INTEGER,
-        allowNull: false
+        type: DataTypes.INTEGER
     }
 })
 
